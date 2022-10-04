@@ -11,7 +11,7 @@ namespace TestGoogleSearch
         [TestMethod]
         public void TestSearchAndDisplayStreetFighterFive()
         {
-            int waitingTime = 3000;
+            int waitingTime = 1000;
             By googleSearchBar = By.Name("q");
             By googleSearchButton = By.XPath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]");
             By googleResultText = By.XPath(".//h2/span[text()='Street Fighter V']");
